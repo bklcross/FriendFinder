@@ -11,5 +11,5 @@ module.exports = function (app) {
         var userScores = userData.scores;
         console.log("userScores: ", userScores);
     })
-    console.log("friendScores: ", friends);
+    console.log("friendScores: ", friends.scores);
 }
